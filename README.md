@@ -51,9 +51,13 @@ Pour exécuter le projet, assurez-vous d'avoir un compilateur C++ installé :
    ```bash
    git clone https://github.com/hodindorian/ChantierPlusPlus.git
    ```
-2. Compilez le projet dans le dossier `src`: 
+2. Compilez le projet dans la racine de ce dernier : 
    ```bash
-   g++ -Wall -o chantierplusplus main.cpp
+   cmake .
+   ```
+   Puis :
+   ```bash
+   make
    ```
 3. Exécutez l'application : 
    ```bash
@@ -72,10 +76,9 @@ Pour exécuter le projet, assurez-vous d'avoir un compilateur C++ installé :
      ├── Ouvrier                        #dossier Ouvrier
      │    ├── ouvrier.cpp               #cpp de la classe ouvrier
      │    └── ouvrier.hpp               #hpp de la classe ouvrier  
-     ├── chantierplusplus               #application ChantierPlusPlus
      └── main.cpp                       #main de l'application
 ```
-       
+
 ## Auteur
 
 Projet réalisé par Dorian HODIN dans le cadre du TP noté de C++ - ChantierPlusPlus.

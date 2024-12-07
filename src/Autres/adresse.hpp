@@ -1,7 +1,6 @@
 #include <string.h>
 #include <iostream>
 
-
 class Adresse{
     private:
         std::string nom;
@@ -16,5 +15,5 @@ class Adresse{
         void setNom(std::string nom);
         void setLatitude(double latitude);
         void setLongitude(double longitude);
-        void toStream(std::ostream & stream);
+        void toStream(std::ostream& stream = std::cout);
 };

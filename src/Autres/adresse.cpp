@@ -38,7 +38,7 @@ void Adresse::setLongitude(double pLongitude){
     longitude = pLongitude;
 }
 
-void Adresse::toStream(std::ostream & stream = std::cout ){
+void Adresse::toStream(std::ostream& stream){
     stream << nom << " ( " << latitude << " ; " << longitude << " )" << std::endl;
 }
 
